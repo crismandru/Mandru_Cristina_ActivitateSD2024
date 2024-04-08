@@ -29,7 +29,6 @@ HashTable initializareHashTable(int dimensiune) {
 	for (int i = 0; i < dimensiune; i++) {
 		hash.vector[i] = NULL;
 	}
-
 	return hash;
 }
 
